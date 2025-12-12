@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab Demo - Cristian Maldonado</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="header">
+        <h1>Recipe World</h1>
+    </div>
+    <div class="nav">
+        <h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="suggest.html">Suggest</a></li>
+            </ul>
+        </h2>
+    </div>
+    <div class="main suggest">
+      <h2>Suggest</h2>
+      <form class="suggestList">
+        <div class="form-block">
+            <label for="recipeName" class="form-label">Recipe Name*:</label>
+            <input type="text" name="recipeName" id="recipeName">
+        </div>
+        <div class="form-block">
+            <label for="ingredients" class="form-label">Ingredients*:</label>
+            <textarea name="ingredients" id="ingredients" rows="5" cols="10" placeholder="Enter Ingredients here..."></textarea>
+        </div>
+        <div class="form-block">
+            <label for="yourName" class="form-label">Your Name*:</label>
+            <input type="text" id="yourName">
+        </div>
+        <div class="form-block">
+            <label for="yourEmail" class="form-label">Your Email*:</label>
+            <input type="text" id="yourEmail">
+        </div>
+        <div class="form-block">
+            <label for="terms" class="form-label">Agree with T&C: </label>
+            <input type="checkbox" id="terms" name="terms">
+        </div>
+        <div class="form-block">
+            <button type="submit" id="submitBtn" disabled>Click To Submit</button>
+        </div>
+      </form>
+      
+    </div>
+  </body>
+  <footer>
+    &copy; 2025 - Recipe World - Cristian Maldonado
+  </footer>
+  <script src="./index.js"></script>
+</html>
